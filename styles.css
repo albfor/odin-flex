@@ -1,45 +1,58 @@
 body {
-	font-family: "Iosevka Fixed";
+	font-family: "Roboto";
+}
+
+div {
+	margin: 0px;
+	padding: 0px:
 }
 
 .container {
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 }
 
 .hero {
+	display:flex;
 	background: #1F2937;
 }
 
-h1.hero {
+.hero h1 {
 	color: #F9FAF8;
 	font-size: 48px;
 }
 
-h2.hero {
+.hero h2 {
 	color: #F9FAF8;
 	font-size: 24px;
+}
+
+.hero p, .hero li {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.left {
+	width: 2000px;
+	flex-shrink: 1;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	padding: 5px;
+}
+
+.right {
+	width:2000px;
+	flex-shrink: 1;
 }
 
 button {
 	background: #3882F6;
 }
 
-.info {
-	background: #FFFFFF;
-}
-
-.quote {
-	background: #E5E7EB;
-}
-
-blockquote {
-	font-size: 36px;
-	font-style: italic;
-	font-weight: Light;
-	color: #1F2937;
-}
-
-.sign-up {
-	background: #FFFFFF;
-}
