@@ -1,0 +1,45 @@
+body {
+	font-family: "Iosevka Fixed";
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero {
+	background: #1F2937;
+}
+
+h1.hero {
+	color: #F9FAF8;
+	font-size: 48px;
+}
+
+h2.hero {
+	color: #F9FAF8;
+	font-size: 24px;
+}
+
+button {
+	background: #3882F6;
+}
+
+.info {
+	background: #FFFFFF;
+}
+
+.quote {
+	background: #E5E7EB;
+}
+
+blockquote {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: Light;
+	color: #1F2937;
+}
+
+.sign-up {
+	background: #FFFFFF;
+}
