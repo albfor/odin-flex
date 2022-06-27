@@ -93,6 +93,7 @@ button {
 }
 
 .card {
-	width: 200px;
+	text-align: center;
+	width: 150px;
 	flex-grow: 0;
 }
